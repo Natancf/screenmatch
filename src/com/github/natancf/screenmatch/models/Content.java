@@ -11,7 +11,7 @@ public class Content {
     private int totalRatings = 0;
 
     // Construtor
-    public Content(String title, int releaseYear, String director) {
+    public Content(String title, int releaseYear) {
         this.title = title;
         this.releaseYear = releaseYear;
     }
@@ -39,6 +39,14 @@ public class Content {
     public int getTotalRatings() { return totalRatings; }
 
     // SETTERS
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setReleaseYear(int releaseYear) {
+        this.releaseYear = releaseYear;
+    }
+    
     public void setGenre(String genre) {
         this.genre = genre;
     }
