@@ -4,8 +4,6 @@ public class Serie extends Content {
     private int seasons;
     private int episodesPerSeason;
     private boolean active;
-    private String genre;
-    private String description;
 
     public Serie(String title, int releaseYear, int seasons, int episodesPerSeason) {
         super(title, releaseYear);
@@ -31,10 +29,6 @@ public class Serie extends Content {
     
     public void setActive(boolean active) {
         this.active = active;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
     }
     
     

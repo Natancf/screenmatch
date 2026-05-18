@@ -17,3 +17,9 @@ out/
 # Ignore all local history of files
 .history
 .ionide
+
+
+### Eclipse / VS Code Java ###
+.classpath
+.project
+.settings/
